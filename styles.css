@@ -19,7 +19,7 @@ table {
 }
 
 th, td {
-    padding: 8px;
+    padding: 8px 0 8px 0;
 }
 
 tr:nth-child(even) {
@@ -34,17 +34,20 @@ th {
 
 .class-row:hover {
     border: 3px solid #a74646;
-    padding: 8px;
+    padding: 8px 0 8px 0;
     height: 60px;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     background-color: #5a5a5a;
     color: white;
 }
 
 
+.sub {
+    width: 200px;
+}
 
-
-
-
+.other {
+    width: 100px;
+}
 
